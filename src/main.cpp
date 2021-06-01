@@ -23,6 +23,8 @@ CHalfEdge* FindNextBoundaryHE(CHalfEdge* he)
 
 void main(int argc, char** argv)
 {
+	cout << "Test:hello word!" << endl;
+
 	CTMesh mesh;
 	CTMesh mesh2;
 	if(argc<=1)
