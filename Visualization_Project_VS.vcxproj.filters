@@ -20,11 +20,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="includes\Tool.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="include\Tool.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="includes\ToolMesh.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="include\ToolMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComplexIntegral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HarmonyMapping.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

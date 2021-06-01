@@ -146,8 +146,10 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="includes\Tool.h" />
-    <ClInclude Include="includes\ToolMesh.h" />
+    <ClInclude Include="include\ComplexIntegral.h" />
+    <ClInclude Include="include\HarmonyMapping.h" />
+    <ClInclude Include="include\Tool.h" />
+    <ClInclude Include="include\ToolMesh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
