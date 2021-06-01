@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "dense": "cpp",
+        "eigenvalues": "cpp"
+    },
+
+}
