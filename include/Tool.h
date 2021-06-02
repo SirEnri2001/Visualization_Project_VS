@@ -7,6 +7,7 @@
 #include "ToolMesh.h"
 #include "HarmonyMapping.h"
 #include "ComplexIntegral.h"
+#include "SphereMapping.h"
 
 #ifndef PI
 #define PI 3.1415926535

@@ -3,23 +3,12 @@
 
 #include"Tool.h"
 #include"ToolMesh.h"
-#include <eigen3/Eigen/Core>
-#include <eigen3/Eigen/Dense>
 
 
 using namespace std;
 using namespace MeshLib;
-using namespace Eigen;
 
-CHalfEdge* FindNextBoundaryHE(CHalfEdge* he)
-{
-	he = he->he_next();
-	while (!he->edge()->boundary())
-	{
-		he = he->he_sym()->he_next();
-	}
-	return he;
-}
+
 
 void main(int argc, char** argv)
 {
@@ -46,6 +35,5 @@ void main(int argc, char** argv)
 	intergralMesh.Integral(&mesh);
 	mesh.write_m(argv[2]);
 	cout << "finished !!! press any key to continue!!!" << endl;
-	
 	getchar();
 }
