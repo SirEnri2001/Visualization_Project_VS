@@ -34,7 +34,7 @@ namespace MeshLib
 		~HarmonyMapping()
 		{
 			delete pVMap;
-		};
+		}
 		
 	};
 

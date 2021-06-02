@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="include\ComplexIntegral.h" />
     <ClInclude Include="include\HarmonyMapping.h" />
+    <ClInclude Include="include\SphereMapping.h" />
     <ClInclude Include="include\Tool.h" />
     <ClInclude Include="include\ToolMesh.h" />
   </ItemGroup>
